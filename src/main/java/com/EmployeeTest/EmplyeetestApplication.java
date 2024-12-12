@@ -8,7 +8,7 @@ public class EmplyeetestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EmplyeetestApplication.class, args);
-		System.out.println("employeeTest new");
+		System.out.println("employee main class");
 	}
 
 }
