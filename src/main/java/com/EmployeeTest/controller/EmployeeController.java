@@ -52,7 +52,7 @@ public class EmployeeController {
 			employeeRepo.save(optional.get());
 		}
 
-		return "Employee updated successfully";
+		return "Employee updated  ";
 	}
 
 	@DeleteMapping("/delete")
@@ -61,7 +61,7 @@ public class EmployeeController {
 
 		employeeRepo.deleteById(id);
 
-		return " Employee deleted";
+		return " Employee deleted successfully";
 	}
 
 }
