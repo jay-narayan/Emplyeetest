@@ -29,7 +29,7 @@ public class EmployeeController {
 
 		Employee saveEmployee = employeeRepo.save(emp);
 
-		return "Employee  successfully";
+		return "Employee  successfully"; // test
 	}
 
 	@GetMapping("/getAll")
